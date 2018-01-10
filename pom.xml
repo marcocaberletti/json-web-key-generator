@@ -3,7 +3,7 @@
 
     <groupId>org.mitre</groupId>
     <artifactId>json-web-key-generator</artifactId>
-    <version>0.4-SNAPSHOT</version>
+    <version>0.4</version>
     <packaging>jar</packaging>
 
     <name>json-web-key-generator</name>
@@ -118,4 +118,19 @@
             <version>2.3</version>
         </dependency>
     </dependencies>
+
+   <distributionManagement>
+    	<repository>
+	    	<id>cnaf-releases</id>
+			<name>CNAF releases</name>
+			<url>https://repo.cloud.ba.infn.it/repository/cnaf-releases/</url>
+		</repository>
+
+		<snapshotRepository>
+			<id>cnaf-snapshots</id>
+		 	<name>CNAF snapshots</name>
+			<url>https://repo.cloud.ba.infn.it/repository/cnaf-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>
